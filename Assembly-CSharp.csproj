@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1D585657-DE67-FF05-7059-4CE141556E47}</ProjectGuid>
+    <ProjectGuid>{C0913206-146E-5C23-84AC-57C5488B6F19}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,13 +60,14 @@
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+    <Compile Include="Assets\Prefabs\Player\Mlook.cs" />
+    <Compile Include="Assets\Prefabs\Player\Liike.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
-    <Compile Include="Assets\PlayerControl.cs" />
-    <Compile Include="Assets\Liike.cs" />
-    <Compile Include="Assets\Mlook.cs" />
+    <Compile Include="Assets\Prefabs\Player\PlayerControl.cs" />
+    <Compile Include="Assets\Prefabs\Objects\Scripts\BulletController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
@@ -670,7 +671,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{40C1C9A8-B5BC-720C-D605-412854D57E44}</Project>
+      <Project>{776CED60-994F-5785-4DB3-C4398CDA7517}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
